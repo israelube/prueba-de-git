@@ -57,6 +57,9 @@ public class CelPanPri extends javax.swing.JFrame {
         mnuMaeLisCe = new javax.swing.JMenuItem();
         mnuAyu = new javax.swing.JMenu();
         mnuAyuAceDe = new javax.swing.JMenuItem();
+        jMenu1 = new javax.swing.JMenu();
+        jMenuItem1 = new javax.swing.JMenuItem();
+        jMenuItem2 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DO_NOTHING_ON_CLOSE);
         setTitle("CelularesTES");
@@ -194,6 +197,16 @@ public class CelPanPri extends javax.swing.JFrame {
 
         jMenuBar1.add(mnuAyu);
 
+        jMenu1.setText("herramienta");
+
+        jMenuItem1.setText("calculadora");
+        jMenu1.add(jMenuItem1);
+
+        jMenuItem2.setText("mapaa");
+        jMenu1.add(jMenuItem2);
+
+        jMenuBar1.add(jMenu1);
+
         setJMenuBar(jMenuBar1);
 
         setBounds(0, 0, 640, 480);
@@ -303,7 +316,10 @@ public class CelPanPri extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JDesktopPane dskGen;
+    private javax.swing.JMenu jMenu1;
     private javax.swing.JMenuBar jMenuBar1;
+    private javax.swing.JMenuItem jMenuItem1;
+    private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JLabel lblUsr;
     private javax.swing.JMenu mnuArc;
     private javax.swing.JMenuItem mnuArcAbr;
