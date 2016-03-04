@@ -1,0 +1,5 @@
+Symbian
+Android
+iOS
+RIM
+Windows Mobile

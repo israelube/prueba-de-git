@@ -1,0 +1,8 @@
+logoBlackBerry.jpg
+logoHuawei.jpg
+logoiPhone.jpg
+logoLG.jpg
+logoMotorola.jpg
+logoNokia.jpg
+logoSamsung.jpg
+logoSony.jpg
